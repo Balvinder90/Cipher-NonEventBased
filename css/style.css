@@ -1,0 +1,245 @@
+
+*
+
+{
+	box-sizing: border-box;
+}
+
+body
+
+{
+	background-color: #272727;
+	font-family: 'Agency FB';
+	text-align: center;
+	overflow-x: hidden;
+}
+
+div#container
+
+{
+	max-width: 960px;
+	margin: auto;
+}
+
+header
+
+{
+	display: flex;
+	justify-content: space-between;
+	max-width: 320px;
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+h2 
+
+{
+	font-size: 3.6em;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	transition: 0.3s;
+}
+
+
+h2:hover 
+
+{
+	cursor: pointer;
+	transform: translateY(-5px);
+	transition: 0.3s;
+}
+
+h2
+
+{
+	color: #3cab5b;
+}
+
+p.error
+
+{
+	opacity: 0;
+	font-size: 1.2em;
+	color: #272727;
+	position: relative;
+	width: 300px;
+	margin: auto;
+	background-color: #68ef8e;
+	border-radius: 9px;
+	padding: 5px;
+	transition: 0.7s;
+}
+
+form
+
+{
+	margin-top: 20px;
+}
+
+input
+
+{
+	display: block;
+	margin: auto;
+	margin-bottom: 50px;
+	font-family: 'Agency FB';
+	font-size: 1.6em;
+	background-color: #272727;
+	outline: none;
+	border-top: none;
+	border-right: none;
+	border-bottom: 1px #9bfeb7 solid;
+	width: 45%;
+	border-left: none;
+	text-align: center;
+	color: #ffffff;
+	padding: 15px 0px;
+	transition: 0.7s;
+}
+
+input:focus
+
+{
+	width: 75%;
+	transition: 0.7s;
+}
+
+button
+
+{
+	display: block;
+	margin: auto;
+	height: 60px;
+	width: 60px;
+	background-color: #3cab5b;
+	border: 11px solid #68ef8e;
+	outline: none;
+	border-radius: 50%;
+	transition: 0.4s;
+}
+
+button:hover
+
+{
+	cursor: pointer;
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+p#result
+
+{
+	margin-top: 40px;
+	color: #ffffff;
+	font-size: 1.6em;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+
+	input 
+
+	{
+		width: 45%;
+	}
+
+
+	input:focus
+
+	{
+		width: 80%;
+	}
+
+}
+
+@media only screen and (max-width: 660px) {
+
+	input 
+
+	{
+		width: 55%;
+	}
+
+
+	input:focus
+
+	{
+		width: 80%;
+	}
+
+}
+
+@media only screen and (max-width: 550px) {
+
+	input 
+
+	{
+		width: 65%;
+	}
+
+
+	input:focus
+
+	{
+		width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 480px) {
+
+	input 
+
+	{
+		width: 65%;
+	}
+
+
+	input:focus
+
+	{
+		width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 440px) {
+
+	input 
+
+	{
+		width: 75%;
+	}
+
+
+	input:focus
+
+	{
+		width: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 400px) {
+
+	input 
+
+	{
+		width: 70%;
+	}
+
+
+	input:focus
+
+	{
+		width: 90%;
+	}
+
+}
+
+
+
+
